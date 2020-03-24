@@ -2,7 +2,7 @@ const express = require("express")
 const OngController = require('./controllers/OngController')
 const IncidentController = require('./controllers/IncidentController')
 const ProfileController = require('./controllers/ProfileController')
-
+const SessionController = require('./controllers/SessionController')
 
 const routes = express.Router()
 
@@ -11,6 +11,10 @@ const routes = express.Router()
     routes.get("/", (request, response) => {           
         response.send("Hello, World!")
     })
+
+    //SESSIONS
+    routes.post('/sessions', SessionController.create)
+
     //USERS    
     routes.get('/ongs', OngController.index)
     routes.post('/ongs', OngController.create)
