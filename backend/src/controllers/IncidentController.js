@@ -21,6 +21,7 @@ module.exports = {
     async delete(request, response){
         const { id } = request.params;
         const ong_id = request.headers.authorization
+        
 
         //VEREFICAR QUEM ESTA TENTANDO DELETAR O INCIDENT
         const incident = await connection('incidents')
