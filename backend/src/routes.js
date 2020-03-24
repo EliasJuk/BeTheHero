@@ -8,7 +8,7 @@ const routes = express.Router()
 //ROUTES
     //MAIN
     routes.get("/", (request, response) => {           
-        res.send("HI")
+        response.send("HI")
     })
     //USERS
     routes.get('/ongs', async (request, response) => {
@@ -24,6 +24,7 @@ const routes = express.Router()
         //CONEXÃO COM DATABASE
             const id = crypto.randomBytes(4).toString('HEX') //ID RANDOM            
             await connection('ongs').insert({ id, name, email, whatsapp, city, uf })
+            
         return response.json({ id })
     })
 
