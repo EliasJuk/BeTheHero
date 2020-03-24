@@ -17,6 +17,7 @@
 >  SQL: SQLite
 
 >  Query Builder: Knex
+>  http://knexjs.org/
 
 ### Download NodeJs
 > https://nodejs.org/en/download/package-manager/#windows
