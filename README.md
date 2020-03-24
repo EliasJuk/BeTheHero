@@ -10,10 +10,12 @@
 
 ## TESTAR ROTAS
 > Para testar as rotas podemos utilizar o insomnia
+
 > https://insomnia.rest/
 
 ## DataBase
->  SQL: SQLite 
+>  SQL: SQLite
+
 >  Query Builder: Knex
 
 ### Download NodeJs
