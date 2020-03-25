@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
 
-import './style.css'
+import './styles.css'
 import logoImg from '../../assets/logo.svg'
 
 export default function Register() {
@@ -17,7 +17,7 @@ export default function Register() {
 
                 <Link className="back-link" to="/">
                         <FiArrowLeft size={16} color="#E02041" />
-                        Não tenho cadastro
+                        Voltar para o logon
                 </Link>
             </section>
             <form>
