@@ -10,7 +10,6 @@
   🚀 Application developed during the OmniStack 11 week by Rocketseat 🚀
 </h4>
 
----
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EliasJuk/BeTheHero">	
@@ -42,9 +41,7 @@
   <a href="#memo-license">License</a>
 </p>
 
----
-<p>
-</p>
+<p>&nbsp;&nbsp;&nbsp;</p>
 
 ## 💻 Project
 
