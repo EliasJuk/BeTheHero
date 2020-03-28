@@ -20,3 +20,6 @@
 >   **SQL:** SQLite
 
 >   **QueryBuilder:** Knex --> table('users').select('*').where()
+
+## VALIDAÇÃO
+    > http://192.168.0.17:3333/incidents?page=1 || http://192.168.0.17:3333/incidents?page=a

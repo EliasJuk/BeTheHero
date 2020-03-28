@@ -1,4 +1,6 @@
 const express = require("express")
+const { celebrate, Segments, Joi } = require('celebrate')
+
 const OngController = require('./controllers/OngController')
 const IncidentController = require('./controllers/IncidentController')
 const ProfileController = require('./controllers/ProfileController')
@@ -17,16 +19,40 @@ const routes = express.Router()
 
     //USERS    
     routes.get('/ongs', OngController.index)
-    routes.post('/ongs', OngController.create)
+        //VALIDAÇÃO ONGS-POST
+            routes.post('/ongs', celebrate({
+                [Segments.BODY]: Joi.object().keys({
+                    name: Joi.string().required(),
+                    email: Joi.string().required().email(),
+                    whatsapp: Joi.number().required().min(10),
+                    city: Joi.string().required(),
+                    uf: Joi.string().required().length(2)
+                })
+            }), OngController.create)
 
-    //LIST
-    routes.get('/profile', ProfileController.index)
+    //LISTS
+        //VALIDAÇÃO PROFILE-GET
+            routes.get('/profile', celebrate({
+                [Segments.HEADERS]: Joi.object({
+                    authorization: Joi.string().required(),
+                }).unknown(),
+            }), ProfileController.index)
 
     //INCIDENTS
-    routes.get('/incidents', IncidentController.index)
-    routes.post('/incidents', IncidentController.create)
-    //DELETE
-    routes.delete('/incidents/:id', IncidentController.delete)
+        //VALIDAÇÃO INCIDENTS-GET
+            routes.get('/incidents', celebrate({
+                [Segments.QUERY]: Joi.object().keys({
+                    page: Joi.number(),
+                })
+            }), IncidentController.index)            
+        //VALIDAÇÃO INCIDENTS-CREATE
+            routes.post('/incidents', IncidentController.create)
+        //VALIDAÇÃO INCIDENTS-DELETE
+            routes.delete('/incidents/:id', celebrate({
+                [Segments.PARAMS]: Joi.object().keys({
+                    id: Joi.number().required(),
+                })
+            }), IncidentController.delete)
     
 
 module.exports = routes

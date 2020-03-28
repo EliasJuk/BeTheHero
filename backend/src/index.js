@@ -1,5 +1,6 @@
 const express = require("express")
 const cors = require('cors')
+const { errors } = require('celebrate')
 const routes = require('./routes')
 
 const app = express()
@@ -11,6 +12,8 @@ const app = express()
         app.use(express.json())
     //ROUTES
         app.use(routes)
+    //CELEBRATE - TRATAR ERROS
+        app.use(errors())
 
 //CONFIG
     //SERVER
