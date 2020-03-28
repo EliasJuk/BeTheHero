@@ -41,6 +41,7 @@
   <a href="#memo-license">License</a>
 </p>
 
+---
 <p>&nbsp;&nbsp;&nbsp;</p>
 
 ## 💻 Project
