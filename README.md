@@ -2,7 +2,6 @@
     <img alt="BeTheHero" title="#BeTheHero" src="readme/bethehero.svg" width="250px" />
 </h1>
 
----
 
 <h4 align="center"> 
 	:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
@@ -44,6 +43,8 @@
 </p>
 
 ---
+<p>
+</p>
 
 ## 💻 Project
 
@@ -53,7 +54,6 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
     <img alt="Login-Page" title="Login-Page" src="readme/preview.jpg" width="500px" />
 </h1>
 
----
 
 ## :rocket: Technologies
 
@@ -64,13 +64,11 @@ This project was developed with the following technologies:
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
----
 
 ## 🔖 Layout
 
 Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/mM7oa5K8wLfFxY6D5chI1G/Be-The-Hero---OmniStack-11?node-id=0%3A1).
 
----
 
 ## :memo: License
 
