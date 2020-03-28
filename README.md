@@ -29,7 +29,7 @@
 <p>
 
 <p align="center">
-  <a href="" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=BeTheHero&uri=https://raw.githubusercontent.com/EliasJuk/BeTheHero/master/readme/Insomnia_2020-03-28.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 <p align="center">
