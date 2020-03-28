@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Feather } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 import { View, FlatList, Image, Text, TouchableOpacity } from 'react-native';
+import axios from 'axios'
 
-import api from '../../services/api'
+//import api from '../../services/api'
 
 import logoImg from '../../assets/logo.png'
 
@@ -17,10 +18,12 @@ export default function Incidents() {
         navigation.navigate('Detail')
     }
 
-    async function loadIncidents(){
-        const response = await api.get('incidents')
-
-        setIncidents(response.data)
+    function loadIncidents(){
+        axios.get('http://127.0.0.1:3333/incidents').then(response =>{
+            setIncidentsList(response.data); 
+        }).catch(error=>{
+            consolelog(error);
+        })
     }
 
     useEffect( () => {
