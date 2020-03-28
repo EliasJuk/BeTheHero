@@ -4,6 +4,7 @@
 
 <h4 align="center"> 
 	:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
+  🚀 Application developed during the OmniStack 11 week by Rocketseat 🚀
 </h4>
 
 ---
@@ -24,9 +25,13 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasJuk/BeTheHero">
   </a>
   
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">  
-  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen"> 
 <p>
+
+<p align="center">
+  <a href="" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+
 <p align="center">
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
