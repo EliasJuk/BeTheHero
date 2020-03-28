@@ -40,9 +40,10 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
+<p>&nbsp;&nbsp;</p>
 
 ---
-<p>&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;</p>
 
 ## 💻 Project
 
