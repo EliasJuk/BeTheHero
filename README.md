@@ -2,6 +2,7 @@
     <img alt="BeTheHero" title="#BeTheHero" src="readme/bethehero.svg" width="250px" />
 </h1>
 
+<p>&nbsp;</p>
 
 <h4 align="center"> 
 	:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
@@ -38,12 +39,13 @@
   <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-How-To-Use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Install-API">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 <p>&nbsp;&nbsp;</p>
-
 ---
-<p>&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
 
 ## 💻 Project
 
