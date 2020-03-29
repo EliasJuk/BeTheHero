@@ -40,7 +40,7 @@
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-How-To-Use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#--Install-API">Install API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="##Install-API">Install API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 <p>&nbsp;</p>
@@ -55,6 +55,11 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 <h1 align="center">
     <img alt="Login-Page" title="Login-Page" src="readme/preview.jpg" width="500px" />
 </h1>
+
+<p>&nbsp;</p>
+
+
+
 
 
 ## :rocket: Technologies
