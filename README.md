@@ -40,7 +40,7 @@
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-How-To-Use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Install-API">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Install-API">Install API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 <p>&nbsp;&nbsp;</p>
@@ -77,7 +77,8 @@ Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/mM
 
 From your command line:
 
-### Install API ❕
+### ❕ Install API
+
 ```bash
 # Clone this repository
 $ git clone https://github.com/EliasJuk/BeTheHero
