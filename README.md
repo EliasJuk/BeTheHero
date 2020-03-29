@@ -5,12 +5,8 @@
 <p>&nbsp;</p>
 
 <h4 align="center"> 
-	:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
-</h4>
-<h4 align="center"> 
   🚀 Application developed during the OmniStack 11 week by Rocketseat 🚀
 </h4>
-
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EliasJuk/BeTheHero">	
@@ -44,9 +40,8 @@
   <a href="#memo-license">License</a>
 </p>
 
----
 <p>&nbsp;</p>
-
+---
 ## 💻 Project
 
 Be The Hero is a project that aims to connect people who are willing to help ONGs.
