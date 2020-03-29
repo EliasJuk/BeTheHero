@@ -17,4 +17,6 @@ const app = express()
 
 //CONFIG
     //SERVER
-        app.listen(3333)
+        //app.listen(3333)
+    
+module.exports = app
