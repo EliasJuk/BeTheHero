@@ -40,10 +40,9 @@
   <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-How-To-Use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="##Install-API">Install API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="##-Install-API">Install API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
-<p>&nbsp;</p>
 
 ---
 <p>&nbsp;</p>
@@ -58,10 +57,6 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 
 <p>&nbsp;</p>
 
-
-
-
-
 ## :rocket: Technologies
 
 This project was developed with the following technologies:
@@ -71,11 +66,13 @@ This project was developed with the following technologies:
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
+---
 
 ## 🔖 Layout
 
 Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/mM7oa5K8wLfFxY6D5chI1G/Be-The-Hero---OmniStack-11?node-id=0%3A1).
 
+---
 
 ## ❔ How To Use
 
