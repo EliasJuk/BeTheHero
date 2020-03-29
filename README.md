@@ -69,6 +69,33 @@ This project was developed with the following technologies:
 Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/mM7oa5K8wLfFxY6D5chI1G/Be-The-Hero---OmniStack-11?node-id=0%3A1).
 
 
+## ❔ How To Use
+
+<p>To clone and run this application, you'll need Git, [Node.js][nodejs] + [Yarn][yarn] installed on your computer.</p>
+
+From your command line:
+
+### Install API ❕
+```bash
+# Clone this repository
+$ git clone https://github.com/EliasJuk/BeTheHero
+
+# Go into the repository
+$ cd SemanaOmnistack11/backend
+
+# Install dependencies
+$ yarn install
+
+# Run Migrates
+$ yarn knex migrate:latest 
+
+# Run Seeds
+$ yarn seed
+
+# Run the API
+$ yarn dev
+```
+
 ## :memo: License
 
 This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
