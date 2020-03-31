@@ -1,6 +1,6 @@
-<h4 align="center">
+<h1 align="center">
     <img alt="BeTheHero" title="#BeTheHero" src="readme/bethehero.svg" width="350px" />
-</h4>
+</h1>
 
 <p>&nbsp;</p>
 
@@ -66,14 +66,12 @@ This project was developed with the following technologies:
 - [Expo](https://expo.io/)
 
 ---
-<p>&nbsp;</p>
 
 ## 🔖 Layout
 
 Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/mM7oa5K8wLfFxY6D5chI1G/Be-The-Hero---OmniStack-11?node-id=0%3A1).
 
 ---
-<p>&nbsp;</p>
 
 ## ❔ How To Use
 
@@ -115,7 +113,6 @@ $ yarn dev
 After merging your receipt request to done, you can delete a branch from yours.
 
 ---
-<p>&nbsp;</p>
 
 ## :memo: License
 
