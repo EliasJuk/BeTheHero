@@ -1,6 +1,6 @@
-<h1 align="center">
-    <img alt="BeTheHero" title="#BeTheHero" src="readme/bethehero.svg" width="250px" />
-</h1>
+<h4 align="center">
+    <img alt="BeTheHero" title="#BeTheHero" src="readme/bethehero.svg" width="350px" />
+</h4>
 
 <p>&nbsp;</p>
 
@@ -37,6 +37,7 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-How-To-Use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="##-Install-API">Install API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-How-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -87,7 +88,7 @@ From your command line:
 $ git clone https://github.com/EliasJuk/BeTheHero
 
 # Go into the repository
-$ cd SemanaOmnistack11/backend
+$ cd BeTheHero/backend
 
 # Install dependencies
 $ yarn install
@@ -101,6 +102,17 @@ $ yarn seed
 # Run the API
 $ yarn dev
 ```
+
+---
+
+## ❔ How to contribute
+
+- Make a fork;
+- Create a branck with your feature: `git checkout -b my-feature`;
+- Commit changes: `git commit -m 'feat: My new feature'`;
+- Make a push to your branch: `git push origin my-feature`.
+
+After merging your receipt request to done, you can delete a branch from yours.
 
 ---
 <p>&nbsp;</p>
